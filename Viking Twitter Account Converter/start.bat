@@ -1,2 +1,0 @@
-python converter.py
-PAUSE
