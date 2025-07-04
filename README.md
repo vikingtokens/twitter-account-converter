@@ -34,10 +34,10 @@ Turn your raw Twitter account lines into whatever format you need—fast and eas
 
 ## ✅ What you get
 
-• Clear console menu
-• Warnings for any malformed lines
-• Clean output files in `output/`
-• Option to clear old outputs before each run
+- Clear console menu  
+- Warnings for any malformed lines  
+- Clean output files in `output/`  
+- Option to clear old outputs before each run
 
 ## 💬 Need help?
 
