@@ -15,12 +15,15 @@ Turn your raw Twitter account lines into whatever format you need—fast and eas
    • `user:pass:mail:mailpwd:ct0:auth_token:2fa_backup_code`
    • `user:pass:mail:mailpwd:ct0:auth_token`
    • `user:pass:mail:ct0:auth_token`
-4. **Run the converter**
+   
+5. **Run the converter**
+   - **Windows:** double-click `start.bat`
+   - **Linux/macOS:** open a terminal in this folder and run
+     ```bash
+     python converter.py
+     ```
 
-   ```bash
-   python converter.py
-   ```
-5. **Choose an option** (1–4) and watch your files appear in the `output/` folder
+6. **Choose an option** (1–4) and watch your files appear in the `output/` folder
 
 ## 📂 Supported Options
 
