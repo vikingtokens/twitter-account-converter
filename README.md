@@ -1,11 +1,7 @@
-# twitter-account-converter
-A lightweight Python script that parses your input.txt of full Twitter account records and spits out whatever format you need—auth-token only, full user:pass:mail:mailpwd:ct0:auth, etc. Built for speed and reliability; support on Telegram @vikingtokens.
-
-Right under that one-liner you can paste the rest of the README sections we sketched. For example:
-
 ````markdown
-# twitter-account-converter
-A lightweight Python script that parses your `input.txt` of full Twitter account records and spits out whatever format you need—auth-token only, full `user:pass:mail:mailpwd:ct0:auth`, etc. Built for speed and reliability; support on Telegram @vikingtokens.
+# Viking Twitter Account Converter
+
+Turn your raw Twitter account lines into whatever format you need—fast and easy.
 
 ## 🚀 Quickstart
 
@@ -16,16 +12,15 @@ A lightweight Python script that parses your `input.txt` of full Twitter account
 ````
 
 3. **Put your lines** into `input.txt` (one per line) using one of these formats:
-
-   * `user:pass:mail:mailpwd:ct0:auth_token:2fa_backup_code`
-   * `user:pass:mail:mailpwd:ct0:auth_token`
-   * `user:pass:mail:ct0:auth_token`
-4. **Run the script**
+   • `user:pass:mail:mailpwd:ct0:auth_token:2fa_backup_code`
+   • `user:pass:mail:mailpwd:ct0:auth_token`
+   • `user:pass:mail:ct0:auth_token`
+4. **Run the converter**
 
    ```bash
    python converter.py
    ```
-5. **Choose an option** (1–4) and find your output files in `output/`
+5. **Choose an option** (1–4) and watch your files appear in the `output/` folder
 
 ## 📂 Supported Options
 
@@ -34,19 +29,17 @@ A lightweight Python script that parses your `input.txt` of full Twitter account
 3. Build `user:pass:mail:ct0:auth_token`
 4. Build `auth_token:account_password`
 
-## ✅ Features
+## ✅ What you get
 
-* Clear console menu
-* Malformed-line warnings
-* Auto-created `output/` folder
-* Optional “clear previous outputs” prompt
-* Fast execution and simple setup
+• Clear console menu
+• Warnings for any malformed lines
+• Clean output files in `output/`
+• Option to clear old outputs before each run
+
+## 💬 Need help?
+
+Message **@vikingtokens** on Telegram anytime.
 
 ---
 
-*Need help? Message [@vikingtokens](https://t.me/vikingtokens) on Telegram.*
-
-```
-
-Just replace `converter.py` with your actual script name if different. That gives anyone everything they need in one place.
-```
+*Viking Twitter Account Converter* keeps your workflow smooth so you can focus on sales, not scripts.
