@@ -44,5 +44,3 @@ Turn your raw Twitter account lines into whatever format you need—fast and eas
 Message **@vikingtokens** on Telegram anytime.
 
 ---
-
-*Viking Twitter Account Converter* keeps your workflow smooth so you can focus on sales, not scripts.
